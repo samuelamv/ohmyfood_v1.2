@@ -44,6 +44,9 @@ body{
 /**** btn-hover ****/
 .btn-hover:hover{
     opacity: 0.8;
+    transition: 2ms;
+    box-shadow: 0px 4px 15px 0px #00000059;
+
 }
 /**** Mobile first ****/
 /**** header ****/
