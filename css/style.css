@@ -260,6 +260,7 @@ nav{
 .container i{
     font-size: 25px;
     position: relative;
+    color: #000000;
 }
 
 .container i:hover::after{
@@ -275,6 +276,18 @@ nav{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: appearslow 1.5s forwards;
+}
+
+@keyframes appearslow {
+    from {
+        opacity: 0;
+        transition: opacity 2s; /* Ajoute une transition pour l'opacité */
+    }
+
+    to{
+        opacity: 1;
+    }
 }
 
 
